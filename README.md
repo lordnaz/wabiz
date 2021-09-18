@@ -1,23 +1,28 @@
-# Larawind - Laravel 8.0+ Jetstream and Tailwind CSS Admin Theme
-
-This project is created with [Laravel Jetstream](https://jetstream.laravel.com/1.x/introduction.html) Framework and [Tailwind CSS](https://tailwindcss.com), the admin environment is desing by [Windmill Dashboard](https://windmill-dashboard.vercel.app/).
+# Laravel 8 + Jetstream + Livewire + Tailwind + Windmill
 
 ## Requirements
 
+- PHP version 8
 - Laravel installer
 - Composer
 - Npm installer
+
+## Project Details
+- Project : WA Biz
+- Version : v1.0
+- Author : Nazrul Hanif / Ahmad Miqdad
+- Date Created : 20210919
 
 ## Installation
 
 ```
 # Clone the repository from GitHub and open the directory:
-git clone https://github.com/miten5/larawind.git
+git clone https://github.com/lordnaz/wabiz.git
 
 # cd into your project directory
 cd larawind
 
-#install composer and npm packages
+# install composer and npm packages
 composer install
 npm install && npm run dev
 
@@ -30,11 +35,3 @@ php artisan storage:link
 # Run your server
 php artisan serve
 
-```
-If you like my work [Buy me a coffee](https://www.buymeacoffee.com/miten5)
-
-### Project made possible thanks to:
-
-- [Laravel Jetstream](https://jetstream.laravel.com/1.x/introduction.html)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Windmill Dashboard](https://windmill-dashboard.vercel.app/)

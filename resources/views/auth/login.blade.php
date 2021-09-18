@@ -51,6 +51,13 @@
                             <a class="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline" href="{{ route('password.request') }}">
                                 {{ __('Forgot your password?') }}
                             </a>
+
+                            {{-- <div class="float-right"> --}}
+                                <a class="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline float-right" href="{{ route('register') }}">
+                                    {{ __('Register') }}
+                                </a>
+                            {{-- </div> --}}
+                            
                         </p>
                     </div>
                 </div>
